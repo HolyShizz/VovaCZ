@@ -1,0 +1,66 @@
+/* Carousel styles*/
+  
+  
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 1066px;
+    overflow: hidden;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 800px;
+  }
+  
+  @media (max-width:540px) {
+
+    .navbar-brand .logo {
+      max-width: 250px;
+      height: auto;
+    }
+
+    .carousel-item {
+      height: 300px;
+    }
+  }
+  @media (max-width:1040px) {
+    .carousel-item {
+        height: 500px;
+      }
+}
+
+  /*Carousel styles end!!!*/
+
+
+  .p-svg svg {
+      height: 2rem;
+      width: 2rem;
+      margin-right: 10px;
+  }
+
+  /*Text styles*/
+
+  .color-firm {
+    background-color: #F9CB37;
+  }
+
+  .icon-square {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border-radius: .2rem;
+  }
